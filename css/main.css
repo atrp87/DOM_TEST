@@ -1,0 +1,22 @@
+#user {
+  background-color: lightblue;
+  color: black;
+  padding: 40px;
+  text-align: center;
+  text-size-adjust: 30%;
+}
+
+body {
+    background-color: palevioletred;
+}
+
+#country {
+  width: 135px;
+}
+
+ul li {
+  background: white;
+  margin: 5px;
+  margin-right: 60px;
+  list-style-type: none;
+}
