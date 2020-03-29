@@ -6,8 +6,8 @@ const form = document.querySelector('#name-form');
 const deleteAllButton = document.querySelector('#delete-all');
   deleteAllButton.addEventListener('click', handleDeleteAllClick);
 
-const radioButton = document.querySelector('');
-  radioButton.addEventListener('check', formSubmit)  
+// const radioButton = document.querySelector('');
+//   radioButton.addEventListener('check', formSubmit)  
 })
 
 const handleFormSubmit = function(e) {
@@ -26,7 +26,13 @@ const handleDeleteAllClick = function (e) {
   list.innerHTML = ''; 
 }
 
-const formSubmit = function() {
- document.querySelector('input[name="gender"]:checked');
- fromSubmit.value
+// const formSubmit = function() {
+//  document.querySelector('input[name="gender"]:checked');
+//  fromSubmit.value
+// }
+
+
+function myFunction() {
+  var x = document.getElementById("Radio").required;
+  document.getElementById("submit").innerHTML = x;
 }
